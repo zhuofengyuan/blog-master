@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blog-eureka/blog-eureka.iml" filepath="$PROJECT_DIR$/blog-eureka/blog-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-gateway/blog-gateway.iml" filepath="$PROJECT_DIR$/blog-gateway/blog-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-master.iml" filepath="$PROJECT_DIR$/blog-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-provider/blog-provider.iml" filepath="$PROJECT_DIR$/blog-provider/blog-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-provider-api/blog-provider-api.iml" filepath="$PROJECT_DIR$/blog-provider-api/blog-provider-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/blog-provider-cmc.iml" filepath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/blog-provider-cmc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-provider-api/blog-provider-cmc-api/blog-provider-cmc-api.iml" filepath="$PROJECT_DIR$/blog-provider-api/blog-provider-cmc-api/blog-provider-cmc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/blog-provider-uac.iml" filepath="$PROJECT_DIR$/blog-provider/blog-provider-uac/blog-provider-uac.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-provider-api/blog-provider-uac-api/blog-provider-uac-api.iml" filepath="$PROJECT_DIR$/blog-provider-api/blog-provider-uac-api/blog-provider-uac-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-template/blog-template.iml" filepath="$PROJECT_DIR$/blog-template/blog-template.iml" />
+    </modules>
+  </component>
+</project>
