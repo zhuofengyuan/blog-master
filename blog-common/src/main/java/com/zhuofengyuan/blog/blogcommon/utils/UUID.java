@@ -97,11 +97,11 @@ public abstract class UUID {
         StringBuilder sb = new StringBuilder();
         long m = uu.getMostSignificantBits();
         long l = uu.getLeastSignificantBits();
-        for (int i = 0; i < 13; i++) {
-            sb.append(_UU32[(int) (m >> ((13 - i - 1) * 5)) & 31]);
+        for (int i = 0; i < 16; i++) {
+            sb.append(_UU32[(int) (m >> ((16 - i - 1) * 5)) & 31]);
         }
-        for (int i = 0; i < 13; i++) {
-            sb.append(_UU32[(int) (l >> ((13 - i - 1)) * 5) & 31]);
+        for (int i = 0; i < 16; i++) {
+            sb.append(_UU32[(int) (l >> ((16 - i - 1)) * 5) & 31]);
         }
         return sb.toString();
     }

@@ -2,8 +2,9 @@ package com.zhuofengyuan.blog.blogprovideruac.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.zhuofengyuan.blog.blogcommon.exception.TipException;
+import com.zhuofengyuan.blog.blogcommon.keygen.KeyGenerator;
 import com.zhuofengyuan.blog.blogcommon.utils.FengtoosUtils;
-import com.zhuofengyuan.blog.blogprovideruac.exception.TipException;
 import com.zhuofengyuan.blog.blogprovideruac.mapper.UserMapper;
 import com.zhuofengyuan.blog.blogprovideruac.model.User;
 import com.zhuofengyuan.blog.blogprovideruac.model.vo.UserVo;
@@ -19,6 +20,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -29,10 +31,11 @@ public class UserService implements IUserService {
     UserMapper userDao;
     @Autowired
     BCryptPasswordEncoder encoder;
+    @Autowired
+    KeyGenerator<String> keyGen;
 
     @Override
     @Transactional(readOnly = true)
-    @Cacheable(value = "userCache")
     public PageInfo<User> findAll(int num, int size) {
         PageHelper.startPage(num, size);
         List<User> data = this.userDao.findAll();
@@ -54,10 +57,12 @@ public class UserService implements IUserService {
     @Transactional
     @CachePut(key = "'user_'+ #p0.id")
     public User addObject(User user) {
-        String password = user.getPassword(), username = user.getUsername();
-        user.setPassword(FengtoosUtils.MD5encode(username + password));
+        String password = user.getPassword();
+        user.setPassword(this.encoder.encode(password));
+        user.setId(keyGen.generateKey());
+        user.setCreated(new Date());
         this.userDao.insert(user);
-        return this.userDao.selectByPrimaryKey(user.getUid());
+        return this.userDao.selectByPrimaryKey(user.getId());
     }
 
     @Override
@@ -66,7 +71,7 @@ public class UserService implements IUserService {
     public User updateUser(User u) {
         this.userDao.updateByPrimaryKeySelective(u);
         // 可能只是更新某几个字段而已，所以查次数据库把数据全部拿出来全部
-        return this.userDao.selectByPrimaryKey(u.getUid());
+        return this.userDao.selectByPrimaryKey(u.getId());
     }
 
     @Override

@@ -35,11 +35,11 @@ public class UacUserDetailsService implements UserDetailsService {
     }
 
     private SecurityUser createSecurityUser(User entity){
-        String id = entity.getUid();
+        String id = entity.getId();
         List<Authorization> auths = this.authorizationDao.selectByUserId(id);
 
         List<GrantedAuthority> authorizations = auths.stream().filter(a -> StringUtils.isNotEmpty(a.getCode()))
                 .map(a -> new SimpleGrantedAuthority(a.getCode())).collect(Collectors.toList());
-        return new SecurityUser(authorizations, entity.getUid(), entity.getScreenName(), entity.getUsername(), entity.getPassword());
+        return new SecurityUser(authorizations, entity.getId(), entity.getScreenName(), entity.getUsername(), entity.getPassword());
     }
 }

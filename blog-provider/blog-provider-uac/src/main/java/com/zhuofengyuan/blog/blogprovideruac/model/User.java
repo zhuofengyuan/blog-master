@@ -11,7 +11,7 @@ public class User implements Serializable{
 
     private static final long serialVersionUID = -7472802841628712694L;
 
-    private String uid;
+    private String id;
 
     private String username;
 
@@ -26,7 +26,7 @@ public class User implements Serializable{
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date created;
 
-    private Integer activated;
+    private String phone;
 
     private Integer logged;
 

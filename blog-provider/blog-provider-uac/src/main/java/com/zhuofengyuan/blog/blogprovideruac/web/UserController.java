@@ -41,11 +41,11 @@ public class UserController {
      * @return
      */
     @PostMapping("/add")
-    public String addObject(User user) {
+    public RestResponseBo addObject(User user) {
         Assert.notNull(user.getUsername(), "请输入用户名");
         Assert.notNull(user.getPassword(), "请输入密码");
         User u = this.userService.addObject(user);
-        return u.getUid() + "   " + u.getUsername();
+        return RestResponseBo.ok(u.getId());
     }
 
     @GetMapping("/login")
@@ -69,9 +69,9 @@ public class UserController {
     @PutMapping("/{id}")
     public String updateObject(@PathVariable String id, String username) {
         User user = new User();
-        user.setUid(id);
+        user.setId(id);
         user.setUsername(username);
-        return user.getUid() + "   " + user.getUsername();
+        return user.getId() + "   " + user.getUsername();
     }
 
     @DeleteMapping("/{id}")

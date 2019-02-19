@@ -2,20 +2,20 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zhuofengyuan.blog.blogprovideruac.mapper.UserMapper">
     <resultMap id="BaseResultMap" type="com.zhuofengyuan.blog.blogprovideruac.model.User">
-        <id column="uid" jdbcType="VARCHAR" property="uid"/>
+        <id column="id" jdbcType="VARCHAR" property="id"/>
         <result column="username" jdbcType="VARCHAR" property="username"/>
         <result column="password" jdbcType="VARCHAR" property="password"/>
         <result column="email" jdbcType="VARCHAR" property="email"/>
         <result column="home_url" jdbcType="VARCHAR" property="homeUrl"/>
         <result column="screen_name" jdbcType="VARCHAR" property="screenName"/>
         <result column="created" jdbcType="TIMESTAMP" property="created"/>
-        <result column="activated" jdbcType="INTEGER" property="activated"/>
+        <result column="phone" jdbcType="VARCHAR" property="phone"/>
         <result column="logged" jdbcType="INTEGER" property="logged"/>
         <result column="group_name" jdbcType="VARCHAR" property="groupName"/>
     </resultMap>
 
     <sql id="Base_Column_List">
-        uid, username, password, email, home_url, screen_name, created, activated, logged,
+        id, username, password, email, home_url, screen_name, created, phone, logged,
         group_name
     </sql>
 
@@ -27,8 +27,8 @@
             <if test="password != null">
                 AND u.password = #{password, jdbcType=VARCHAR}
             </if>
-            <if test="uid != null">
-                AND u.uid = #{uid, jdbcType=INTEGER}
+            <if test="id != null">
+                AND u.id = #{id, jdbcType=VARCHAR}
             </if>
         </where>
     </sql>
@@ -43,7 +43,11 @@
         select
         <include refid="Base_Column_List"/>
         from t_users u
-        <include refid="Where_Column" />
+        <where>
+            <if test="id != null">
+                u.id = #{id, jdbcType=VARCHAR}
+            </if>
+        </where>
     </select>
 
     <select id="selectByUserName" parameterType="java.lang.String" resultMap="BaseResultMap">
@@ -67,25 +71,25 @@
 
     <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
         delete from t_users
-        where uid = #{uid,jdbcType=INTEGER}
+        where id = #{id,jdbcType=VARCHAR}
     </delete>
 
     <insert id="insert" parameterType="com.zhuofengyuan.blog.blogprovideruac.model.User">
-        insert into t_users (uid, username, password,
+        insert into t_users (id, username, password,
         email, home_url, screen_name,
-        created, activated, logged,
+        created, phone, logged,
         group_name)
-        values (#{uid,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
+        values (#{id,jdbcType=VARCHAR}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
         #{email,jdbcType=VARCHAR}, #{homeUrl,jdbcType=VARCHAR}, #{screenName,jdbcType=VARCHAR},
-        #{created,jdbcType=TIMESTAMP}, #{activated,jdbcType=INTEGER}, #{logged,jdbcType=INTEGER},
+        #{created,jdbcType=TIMESTAMP}, #{phone,jdbcType=VARCHAR}, #{logged,jdbcType=INTEGER},
         #{groupName,jdbcType=VARCHAR})
     </insert>
 
     <insert id="insertSelective" parameterType="com.zhuofengyuan.blog.blogprovideruac.model.User">
         insert into t_users
         <trim prefix="(" suffix=")" suffixOverrides=",">
-            <if test="uid != null">
-                uid,
+            <if test="id != null">
+                id,
             </if>
             <if test="username != null">
                 username,
@@ -105,8 +109,8 @@
             <if test="created != null">
                 created,
             </if>
-            <if test="activated != null">
-                activated,
+            <if test="phone != null">
+                phone,
             </if>
             <if test="logged != null">
                 logged,
@@ -116,8 +120,8 @@
             </if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
-            <if test="uid != null">
-                #{uid,jdbcType=INTEGER},
+            <if test="id != null">
+                #{id,jdbcType=VARCHAR},
             </if>
             <if test="username != null">
                 #{username,jdbcType=VARCHAR},
@@ -137,8 +141,8 @@
             <if test="created != null">
                 #{created,jdbcType=TIMESTAMP},
             </if>
-            <if test="activated != null">
-                #{activated,jdbcType=INTEGER},
+            <if test="phone != null">
+                #{phone,jdbcType=VARCHAR},
             </if>
             <if test="logged != null">
                 #{logged,jdbcType=INTEGER},
@@ -170,8 +174,8 @@
             <if test="created != null">
                 created = #{created,jdbcType=TIMESTAMP},
             </if>
-            <if test="activated != null">
-                activated = #{activated,jdbcType=INTEGER},
+            <if test="phone != null">
+                phone = #{phone,jdbcType=VARCHAR},
             </if>
             <if test="logged != null">
                 logged = #{logged,jdbcType=INTEGER},
@@ -180,7 +184,7 @@
                 group_name = #{groupName,jdbcType=VARCHAR},
             </if>
         </set>
-        where uid = #{uid,jdbcType=INTEGER}
+        where id = #{id,jdbcType=VARCHAR}
     </update>
 
     <update id="updateByPrimaryKey" parameterType="com.zhuofengyuan.blog.blogprovideruac.model.User">
@@ -191,9 +195,9 @@
         home_url = #{homeUrl,jdbcType=VARCHAR},
         screen_name = #{screenName,jdbcType=VARCHAR},
         created = #{created,jdbcType=TIMESTAMP},
-        activated = #{activated,jdbcType=INTEGER},
+        phone = #{phone,jdbcType=VARCHAR},
         logged = #{logged,jdbcType=INTEGER},
         group_name = #{groupName,jdbcType=VARCHAR}
-        where uid = #{uid,jdbcType=INTEGER}
+        where id = #{id,jdbcType=VARCHAR}
     </update>
 </mapper>
