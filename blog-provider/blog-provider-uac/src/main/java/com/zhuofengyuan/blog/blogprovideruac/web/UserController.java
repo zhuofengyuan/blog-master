@@ -67,17 +67,17 @@ public class UserController {
     }
 
     @PutMapping("/{id}")
-    public String updateObject(@PathVariable String id, String username) {
+    public RestResponseBo updateObject(@PathVariable String id, String username) {
         User user = new User();
         user.setId(id);
         user.setUsername(username);
-        return user.getId() + "   " + user.getUsername();
+        return RestResponseBo.ok(id, 200);
     }
 
     @DeleteMapping("/{id}")
-    public String deleteObject(@PathVariable String id) {
+    public RestResponseBo deleteObject(@PathVariable String id) {
         this.deleteObject(id);
-        return "success";
+        return RestResponseBo.ok(200);
     }
 
     @GetMapping("/principal")
