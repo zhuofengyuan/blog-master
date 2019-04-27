@@ -3,11 +3,12 @@ package com.zhuofengyuan.blog.blogprovidercmc.mapper;
 import com.zhuofengyuan.blog.blogprovidercmc.model.ProductSku;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Set;
 
-@Mapper
+@Component
 public interface ProductSkuMapper {
     int deleteByPrimaryKey(Long id);
 

@@ -2,7 +2,9 @@ package com.zhuofengyuan.blog.blogprovidercmc.mapper;
 
 
 import com.zhuofengyuan.blog.blogprovidercmc.model.SkuPropertyOption;
+import org.springframework.stereotype.Component;
 
+@Component
 public interface SkuPropertyOptionMapper {
     int deleteByPrimaryKey(Long id);
 

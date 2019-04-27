@@ -1,5 +1,6 @@
 package com.zhuofengyuan.blog.blogprovidercmc.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import org.springframework.data.annotation.Transient;
 
@@ -15,7 +16,11 @@ public class Product implements Serializable{
 
     private Long categoryId;
 
+    private String categoryName;
+
     private Long brandId;
+
+    private String brandName;
 
     private String spuName;
 
@@ -26,9 +31,10 @@ public class Product implements Serializable{
     private List<ProductSku> skuList;
 
     @Transient
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date createTime;
+
     @Transient
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss",timezone = "GMT+8")
     private Date updateTime;
-
-
 }

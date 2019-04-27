@@ -1,0 +1,48 @@
+
+Lsquid:EmptyStatementUsageCheckÜ"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Lsquid:EmptyStatementUsageCheckü"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Q"squid:SwitchLastCaseIsDefaultCheckù""Add a default case to this switch.(Š‚¿ï
+Q"squid:SwitchLastCaseIsDefaultCheck¤""Add a default case to this switch.(Š‚¿ï
+psquid:S1192Y"TDefine a constant instead of duplicating this literal "yyyy-MM-dd HH:mm:ss" 3 times.( ×÷õûÿÿÿÿ
+csquid:S1192"LDefine a constant instead of duplicating this literal "yyyy-MM-dd" 15 times.(ºªïÖ
+U
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(Ï··¶ûÿÿÿÿ
+U
+squid:S106™"9Replace this use of System.out or System.err by a logger.(Ï··¶ûÿÿÿÿ
+P
+squid:S106¨"9Replace this use of System.out or System.err by a logger.(¿­â¬
+U
+squid:S106¶"9Replace this use of System.out or System.err by a logger.(Ï··¶ûÿÿÿÿ
+U
+squid:S106ı"9Replace this use of System.out or System.err by a logger.(Ï··¶ûÿÿÿÿ
+P
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(¿­â¬
+P
+squid:S106°"9Replace this use of System.out or System.err by a logger.(¿­â¬
+P
+squid:S106É"9Replace this use of System.out or System.err by a logger.(¿­â¬
+U
+squid:S106×"9Replace this use of System.out or System.err by a logger.(Ï··¶ûÿÿÿÿ
+rsquid:S14889"[Immediately return this expression instead of assigning it to the temporary variable "day".(ÜúÛ®
+tsquid:S1488Ä"\Immediately return this expression instead of assigning it to the temporary variable "yyyy".(²€¾º
+wsquid:S1488ß"_Immediately return this expression instead of assigning it to the temporary variable "dateStr".(½‹ïÂ
+Ssquid:S2589p"7Remove this expression which always evaluates to "true"(“­¶…ùÿÿÿÿ
+Ssquid:S2589_"7Remove this expression which always evaluates to "true"(“­¶…ùÿÿÿÿ
+\squid:CallToDeprecatedMethod."/Remove this use of "getYear"; it is deprecated.(ÑÏºıÿÿÿÿ
+\squid:CallToDeprecatedMethod."/Remove this use of "getYear"; it is deprecated.(ÑÏºıÿÿÿÿ
+]squid:CallToDeprecatedMethod/"0Remove this use of "getMonth"; it is deprecated.(úÆšıÿÿÿÿ
+]squid:CallToDeprecatedMethod/"0Remove this use of "getMonth"; it is deprecated.(úÆšıÿÿÿÿ
+\squid:CallToDeprecatedMethod0"/Remove this use of "getDate"; it is deprecated.(Ä°²€úÿÿÿÿ
+\squid:CallToDeprecatedMethod0"/Remove this use of "getDate"; it is deprecated.(Ä°²€úÿÿÿÿ
+9squid:S1118("Hide this public constructor.(©ÎõÙùÿÿÿÿ
+ksquid:S001004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¡Õ®üÿÿÿÿ
+usquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+bsquid:S2259ƒ"EA "NullPointerException" could be thrown; "endDate" is nullable here.(ÃÓ™„úÿÿÿÿ
+Fsquid:S00108Q")Either remove or fill this block of code.(Æ¸Û‚øÿÿÿÿ
+squid:S1186("€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(©ÎõÙùÿÿÿÿ
+4squid:S2386"Make this member "protected".(¨ª¡ø
+?squid:S1148E"#Use a logger to log this exception.(µ•—Ÿúÿÿÿÿ
+@squid:S1148ş"#Use a logger to log this exception.(è÷°¤ûÿÿÿÿ
+;squid:S1148š"#Use a logger to log this exception.(½×‰è
+vsquid:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ØÚ
+|squid:S1149Ã"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(˜’Ííûÿÿÿÿ

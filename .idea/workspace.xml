@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6815396-0c58-4aed-8cfe-268080948434" name="Default" comment="" />
+    <list default="true" id="c6815396-0c58-4aed-8cfe-268080948434" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/SnowFlakeKeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/WorkerIDSenquence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/config/KeygenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-common/blog-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/KeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/KeyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/UUIDKeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/UUIDKeyGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/utils/Tools.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/utils/Tools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-eureka/blog-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-eureka/blog-eureka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-gateway-zuul/blog-gateway-zuul.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-gateway/blog-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-gateway/blog-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider-api/blog-provider-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider-api/blog-provider-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider-api/blog-provider-cmc-api/blog-provider-cmc-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider-api/blog-provider-cmc-api/blog-provider-cmc-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider-api/blog-provider-coc-api/blog-provider-coc-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider-api/blog-provider-uac-api/blog-provider-uac-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider-api/blog-provider-uac-api/blog-provider-uac-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/blog-provider-cmc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/blog-provider-cmc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/ProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/ProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/ProductSkuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/ProductSkuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/PropertyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/PropertyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/PropertyOptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/PropertyOptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/SkuPropertyOptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/mapper/SkuPropertyOptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/service/impl/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/service/impl/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/resources/mappers/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/resources/mappers/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-coc/blog-provider-coc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider-uac/blog-provider-uac.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider-uac/blog-provider-uac.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-provider/blog-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-provider/blog-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-template/blog-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/blog-template/blog-template.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/blog-eureka/target/" />
@@ -18,8 +59,11 @@
     <ignored path="$PROJECT_DIR$/blog-provider-cmc/target/" />
     <ignored path="$PROJECT_DIR$/blog-provider/blog-provider-cmc/target/" />
     <ignored path="$PROJECT_DIR$/blog-provider/blog-provider-uac/target/" />
+    <ignored path="$PROJECT_DIR$/blog-gateway-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/blog-provider-api/blog-provider-coc-api/target/" />
+    <ignored path="$PROJECT_DIR$/blog-common/target/" />
+    <ignored path="$PROJECT_DIR$/blog-provider/blog-provider-coc/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,38 +85,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog-provider/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/web/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="95">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/pom.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/service/impl/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="247">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogProviderUacApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/BlogProviderUacApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/config/KeygenConfig.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/SnowFlakeKeyGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/WorkerIDSenquence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/config/KeygenConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/UUIDKeyGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -83,8 +175,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Prop File" />
-        <option value="Class" />
         <option value="Yml File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -96,6 +188,9 @@
     <replaceStrings>
       <replace>Bean</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,27 +208,33 @@
         <option value="$PROJECT_DIR$/blog-provider-api/blog-provider-cmc-api/pom.xml" />
         <option value="$PROJECT_DIR$/blog-provider-api/blog-provider-uac-api/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/blog-provider/blog-provider-cmc/pom.xml" />
         <option value="$PROJECT_DIR$/blog-template/pom.xml" />
         <option value="$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/model/User.java" />
         <option value="$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/blog-provider/pom.xml" />
         <option value="$PROJECT_DIR$/blog-provider/blog-provider-uac/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/model/Category.java" />
+        <option value="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/service/impl/CategoryService.java" />
+        <option value="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/KeyGenerator.java" />
+        <option value="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/utils/Tools.java" />
+        <option value="$PROJECT_DIR$/blog-provider/blog-provider-cmc/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/SnowFlakeKeyGenerator.java" />
+        <option value="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/UUIDKeyGenerator.java" />
+        <option value="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/web/ProductController.java" />
+        <option value="$PROJECT_DIR$/blog-common/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/config/KeygenConfig.java" />
+        <option value="$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/WorkerIDSenquence.java" />
+        <option value="$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/config/KeygenConfig.java" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="C:\apache-maven-3.6.0\conf\settings1.xml" />
+        <option name="userSettingsFile" value="C:\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -147,26 +248,36 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="blog-provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="blog-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-provider-cmc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="blog-provider-cmc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,7 +288,143 @@
             <path>
               <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogcommon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogcommon" type="462c0819:PsiDirectoryNode" />
+              <item name="keygen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
               <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-cmc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-cmc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-cmc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-cmc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-cmc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogprovidercmc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-cmc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogprovidercmc" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-cmc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogprovidercmc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-cmc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogprovidercmc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-cmc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
@@ -226,15 +473,38 @@
               <item name="blog-provider-uac" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogprovideruac" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-uac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogprovideruac" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blog-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blog-master" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="blog-provider-uac" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="blogprovideruac" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,19 +512,26 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556273697328" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhuofengyuan.blog.blogprovideruac.config" />
+      <recent name="com.zhuofengyuan.blog.blogcommon.keygen" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\IDEAplace\blog-master\blog-common\src\main\java\com\zhuofengyuan\blog\blogcommon\keygen" />
       <recent name="D:\IDEA\IDEAplace\blog-master\blog-provider\blog-provider-uac\src\main\java\com\zhuofengyuan\blog\blogprovideruac\model" />
       <recent name="D:\IDEA\IDEAplace\blog-master\blog-gateway\src\main\resources" />
     </key>
@@ -272,27 +549,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.BlogProviderUacApplication">
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="blog-install" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -319,10 +593,21 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="BlogCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.blogcommon.BlogCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BlogEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="blog-eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.blogeureka.BlogEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BlogGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="blog-gateway" />
@@ -333,14 +618,51 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.bloggateway.BlogGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogGatewayZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-gateway-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.bloggatewayzuul.BlogGatewayZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BlogProviderCmcApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="blog-provider-cmc-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.provider.api.blogprovidercmcapi.BlogProviderCmcApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogProviderCmcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-provider-cmc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.blogprovidercmc.BlogProviderCmcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogProviderCocApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-provider-coc-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.provider.api.blogprovidercmcapi.BlogProviderCocApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogProviderCocApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="blog-provider-coc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.provider.blogprovidercoc.BlogProviderCocApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BlogProviderUacApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="blog-provider-uac-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.blogprovideruacapi.BlogProviderUacApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BlogProviderUacApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="blog-provider-uac" />
@@ -351,40 +673,38 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.blogprovideruac.BlogProviderUacApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="BlogTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="blog-template" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhuofengyuan.blog.blogtemplate.BlogTemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Maven.blog-install" />
       <item itemvalue="Spring Boot.BlogEurekaApplication" />
-      <item itemvalue="Spring Boot.BlogGatewayApplication" />
       <item itemvalue="Spring Boot.BlogProviderCmcApiApplication" />
       <item itemvalue="Spring Boot.BlogProviderUacApiApplication" />
       <item itemvalue="Spring Boot.BlogTemplateApplication" />
+      <item itemvalue="Spring Boot.BlogGatewayZuulApplication" />
+      <item itemvalue="Spring Boot.BlogProviderCocApiApplication" />
+      <item itemvalue="Spring Boot.BlogCommonApplication" />
+      <item itemvalue="Spring Boot.BlogProviderCocApplication" />
+      <item itemvalue="Spring Boot.BlogProviderCmcApplication" />
+      <item itemvalue="Spring Boot.BlogGatewayApplication" />
       <item itemvalue="Spring Boot.BlogProviderUacApplication" />
     </list>
     <recent_temporary>
@@ -407,106 +727,83 @@
       <workItem from="1545103183880" duration="1459000" />
       <workItem from="1545106885335" duration="16731000" />
       <workItem from="1545139774264" duration="5044000" />
+      <workItem from="1552441468704" duration="3872000" />
+      <workItem from="1552465379572" duration="374000" />
+      <workItem from="1552465808762" duration="1112000" />
+      <workItem from="1553233942287" duration="313000" />
+      <workItem from="1553234300564" duration="379000" />
+      <workItem from="1556160110776" duration="1082000" />
+      <workItem from="1556161245446" duration="495000" />
+      <workItem from="1556161790825" duration="4273000" />
+      <workItem from="1556268554920" duration="725000" />
+      <workItem from="1556269325354" duration="741000" />
+      <workItem from="1556270352601" duration="3341000" />
+      <workItem from="1556332909153" duration="918000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23234000" />
+    <option name="totallyTimeSpent" value="40859000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3538874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286517" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286517" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3036193" />
-      <window_info anchor="right" id="Bean Validation" order="8" weight="0.3297587" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3282123" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3282123" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32960895" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="CheckStyle" order="15" weight="0.32960895" />
+      <window_info anchor="bottom" id="SonarLint" order="16" weight="0.32960895" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Maven Projects" order="9" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32573727" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-eureka/src/main/java/com/zhuofengyuan/blog/blogeureka/BlogEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhuofengyuan/blog/blogmaster/BlogMasterApplication.java" />
-    <entry file="file://$PROJECT_DIR$/blog-eureka/src/test/java/com/zhuofengyuan/blog/blogeureka/BlogEurekaApplicationTests.java" />
-    <entry file="jar://D:/repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/2.0.2.RELEASE/spring-cloud-netflix-eureka-server-2.0.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EnableEurekaServer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-eureka/src/main/resources/application-node2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-eureka/src/main/resources/application-node1.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-eureka/src/main/resources/banner.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -542,11 +839,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-gateway/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-gateway/src/main/resources/logback-spring.xml" />
     <entry file="file://$PROJECT_DIR$/blog-gateway/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -554,13 +847,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-gateway/src/main/java/com/zhuofengyuan/blog/bloggateway/filter/RequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-gateway/src/main/java/com/zhuofengyuan/blog/bloggateway/filter/RequestFilter.java" />
     <entry file="file://$PROJECT_DIR$/blog-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -607,20 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/BlogProviderCmcApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog-template/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -649,9 +922,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -673,6 +944,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/BlogProviderUacApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -680,24 +972,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/BlogProviderUacApplication.java">
+    <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/utils/DateKit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository/org/projectlombok/lombok/1.18.4/lombok-1.18.4.jar!/lombok/Data.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/model/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/pom.xml">
+    <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/TimeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        <state relative-caret-position="171">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog-provider/pom.xml">
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/web/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="114">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/web/shop/ShopProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/utils/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="67" column="58" lean-forward="true" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/service/impl/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/BlogProviderCmcApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/bo/RestResponseBo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/KeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-common/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/web/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/service/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-uac/src/main/java/com/zhuofengyuan/blog/blogprovideruac/config/KeygenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/SnowFlakeKeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/WorkerIDSenquence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-provider/blog-provider-cmc/src/main/java/com/zhuofengyuan/blog/blogprovidercmc/config/KeygenConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog-common/src/main/java/com/zhuofengyuan/blog/blogcommon/keygen/UUIDKeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -707,10 +1137,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>blog-template:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -766,7 +1198,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

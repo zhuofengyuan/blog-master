@@ -1,6 +1,5 @@
 package com.zhuofengyuan.blog.blogprovidercmc.service.impl;
 
-import com.zhuofengyuan.blog.blogcommon.exception.TipException;
 import com.zhuofengyuan.blog.blogcommon.keygen.KeyGenerator;
 import com.zhuofengyuan.blog.blogprovidercmc.mapper.CategoryMapper;
 import com.zhuofengyuan.blog.blogprovidercmc.model.Category;

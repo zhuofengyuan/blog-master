@@ -6,28 +6,51 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="blog-common" />
         <module name="blog-eureka" />
         <module name="blog-gateway" />
+        <module name="blog-gateway-zuul" />
         <module name="blog-provider-cmc" />
         <module name="blog-provider-cmc-api" />
+        <module name="blog-provider-coc" />
+        <module name="blog-provider-coc-api" />
         <module name="blog-provider-uac" />
         <module name="blog-provider-uac-api" />
         <module name="blog-template" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="blog-common" target="1.8" />
       <module name="blog-eureka" target="1.8" />
       <module name="blog-gateway" target="1.8" />
+      <module name="blog-gateway-zuul" target="1.8" />
       <module name="blog-master" target="1.8" />
       <module name="blog-provider" target="1.8" />
       <module name="blog-provider-api" target="1.8" />
       <module name="blog-provider-cmc" target="1.8" />
       <module name="blog-provider-cmc-api" target="1.8" />
+      <module name="blog-provider-coc" target="1.8" />
+      <module name="blog-provider-coc-api" target="1.8" />
       <module name="blog-provider-uac" target="1.8" />
       <module name="blog-provider-uac-api" target="1.8" />
       <module name="blog-template" target="1.8" />
       <module name="cmc" target="1.8" />
       <module name="demo" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog-common" options="-parameters" />
+      <module name="blog-eureka" options="-parameters" />
+      <module name="blog-gateway" options="-parameters" />
+      <module name="blog-gateway-zuul" options="-parameters" />
+      <module name="blog-provider-cmc" options="-parameters" />
+      <module name="blog-provider-cmc-api" options="-parameters" />
+      <module name="blog-provider-coc" options="-parameters" />
+      <module name="blog-provider-coc-api" options="-parameters" />
+      <module name="blog-provider-uac" options="-parameters" />
+      <module name="blog-provider-uac-api" options="-parameters" />
+      <module name="blog-template" options="-parameters" />
+    </option>
   </component>
 </project>
